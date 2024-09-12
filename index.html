@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovacode Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-blue-600">Inovacode Academy</h1>
+            <div class="space-x-4">
+                <a href="#courses" class="text-gray-700 hover:text-blue-600">Courses</a>
+                <a href="#schedule" class="text-gray-700 hover:text-blue-600">Schedule</a>
+                <a href="#factory" class="text-gray-700 hover:text-blue-600">Software Factory</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero bg-blue-500 text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-5xl font-bold mb-4">Welcome to Inovacode Academy</h2>
+                <p class="text-xl mb-8">Unlock your potential in software development</p>
+                <a href="#courses" class="bg-white text-blue-500 py-3 px-6 rounded-full font-bold hover:bg-blue-100 transition duration-300">Explore Courses</a>
+            </div>
+        </section>
+
+        <section id="courses" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">Our Courses</h2>
+                <div class="mb-8 flex justify-center space-x-4">
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">All</button>
+                    <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">Frontend</button>
+                    <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">Backend</button>
+                    <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">Full Stack</button>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Web Development" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Web Development Fundamentals</h3>
+                            <p class="text-gray-600 mb-4">Learn the basics of HTML, CSS, and JavaScript</p>
+                            <p class="text-sm text-gray-500">Instructor: John Doe</p>
+                            <p class="text-sm text-gray-500">Duration: 8 weeks</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3" alt="Python Programming" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Python for Data Science</h3>
+                            <p class="text-gray-600 mb-4">Master Python for data analysis and visualization</p>
+                            <p class="text-sm text-gray-500">Instructor: Jane Smith</p>
+                            <p class="text-sm text-gray-500">Duration: 10 weeks</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe" alt="Mobile App Development" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Mobile App Development</h3>
+                            <p class="text-gray-600 mb-4">Build cross-platform mobile apps with React Native</p>
+                            <p class="text-sm text-gray-500">Instructor: Mike Johnson</p>
+                            <p class="text-sm text-gray-500">Duration: 12 weeks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="bg-gray-200 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">In-Person Meetings</h2>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <div class="flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <p class="text-xl">Every 15 days</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="bg-gray-100 rounded p-4 text-center">
+                            <p class="font-bold">Next Meeting</p>
+                            <p>June 15, 2023</p>
+                            <p>2:00 PM - 4:00 PM</p>
+                        </div>
+                        <div class="bg-gray-100 rounded p-4 text-center">
+                            <p class="font-bold">Upcoming</p>
+                            <p>June 30, 2023</p>
+                            <p>2:00 PM - 4:00 PM</p>
+                        </div>
+                        <div class="bg-gray-100 rounded p-4 text-center">
+                            <p class="font-bold">Future</p>
+                            <p>July 15, 2023</p>
+                            <p>2:00 PM - 4:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <a href="#" class="bg-blue-500 text-white py-2 px-6 rounded-full font-bold hover:bg-blue-600 transition duration-300">Join Meeting</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">Why Choose Inovacode Academy?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Comprehensive Online Courses</h3>
+                        <p>Learn from industry experts through our detailed and interactive online courses.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Bi-weekly In-Person Workshops</h3>
+                        <p>Enhance your skills with hands-on learning in our bi-weekly in-person workshops.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Real-world Projects</h3>
+                        <p>Work on actual projects to simulate a software factory environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="factory" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-8">Software Factory Concept</h2>
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Software Factory" class="rounded-lg shadow-md">
+                    </div>
+                    <div class="md:w-1/2 md:pl-8">
+                        <h3 class="text-2xl font-bold mb-4">Efficiency, Productivity, Innovation</h3>
+                        <p class="text-gray-600 mb-4">Our courses are designed to mimic real-world software development practices, preparing you for the challenges of modern software engineering.</p>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Agile methodologies</li>
+                            <li>Continuous integration and deployment</li>
+                            <li>Collaborative project work</li>
+                            <li>Industry-standard tools and practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">Inovacode Academy</h3>
+                    <p>Empowering future software developers</p>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">About Us</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Contact</a></li>
+                        <li><a href="#" class="hover:text-blue-300">FAQ</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-300">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="hover:text-blue-300">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                        </a>
+                        <a href="#" class="hover:text-blue-300">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.441 16.892c-2.102.144-6.784.144-8.883 0C5.282 16.892 5.05 15.846 5 12c.05-3.846.282-4.89 2.559-4.892 2.1-.144 6.782-.144 8.883 0C18.718 7.108 18.95 8.152 19 12c-.05 3.846-.282 4.89-2.559 4.892zM10 9l5.25 3-5.25 3v-6z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/4">
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="bg-gray-700 text-white px-4 py-2 rounded-l-lg w-full">
+                        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-r-lg hover:bg-blue-600 transition duration-300">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
+                <p>&copy; 2023 Inovacode Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
